@@ -1,0 +1,20 @@
+.video-details {
+    padding-top: 120px;
+}
+
+.single-video {
+    height: 350px;
+}
+
+@media screen and (max-width:700px) {
+    .video-details {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .single-video {
+        height: 100%;
+    }
+
+}

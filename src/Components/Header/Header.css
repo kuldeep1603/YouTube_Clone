@@ -1,0 +1,49 @@
+.header {
+    position  : fixed;
+    z-index   : 10;
+    background: var(--primary-color);
+    width     : 100%;
+}
+
+.header .form-control {
+    border-top-left-radius   : 50px !important;
+    border-bottom-left-radius: 50px !important;
+}
+
+.header button {
+    background-color          : #202020 !important;
+    border-top-right-radius   : 50px !important;
+    border-bottom-right-radius: 50px !important;
+    border                    : 1px solid #444 !important;
+    padding                   : 0px 20px;
+}
+
+.header .mic {
+    padding: 12px 14px 12px 14px;
+}
+
+.header .user-img {
+    width : 30px;
+    height: 30px;
+}
+
+
+/* Offcanvas */
+.offcanvas.offcanvas-start {
+    width           : 220px !important;
+    background-color: #0f0f0f;
+}
+
+.offcanvas ul li {
+    transition: all 0.3s ease-in-out;
+}
+
+.offcanvas ul li:hover {
+    background: var(--black-light);
+    color     : #fff;
+}
+
+/* .offcanvas .active {
+    background: var(--black-light);
+    color     : #fff;
+} */

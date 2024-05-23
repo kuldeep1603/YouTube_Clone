@@ -1,0 +1,13 @@
+.swiper-slide {
+    background-color: #202020;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 18px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--white-color);
+}
