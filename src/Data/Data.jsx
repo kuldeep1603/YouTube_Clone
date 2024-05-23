@@ -2,7 +2,7 @@ import React, { createContext, useContext, useReducer, useEffect, useState } fro
 import { reducer } from "./Reducer";
 import { useNavigate } from "react-router-dom";
 
-export const API_KEY = `AIzaSyCABpZj9Hwk8Tn5fQSnKzEFisUTH6WfA4I`
+export const API_KEY = process.env.REACT_APP_API_KEY;
 export const BASE_API_URL = `https://www.googleapis.com/youtube/v3`;
 const Appcontext = createContext();
 export const UserDefaultImg = `/img/User-img.png`;
